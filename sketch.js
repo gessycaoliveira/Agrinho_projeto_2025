@@ -204,9 +204,6 @@ function mostrarPersonagens() {
     textSize(26);
     text(frasesCidade[indiceFrase], width - 330, 350);
   } else if (estadoCaminhao === "retornando") {
-    /*fill(0);
-    textSize(20);
-    textAlign(CENTER);*/
     fill(255);
     stroke(0);
     strokeWeight(4);
